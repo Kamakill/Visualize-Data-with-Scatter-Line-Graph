@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    background-color: milk;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    margin-top: 8px;
+    color: aqua;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#legend {
+    margin-top: 5px;
+    color: rebeccapurple;
+    font-size: 18px;
+    text-align: center;
+}
+
+#title {
+    font-size: 28px;
+    fill:rgb(50, 68, 68);
+    text-align: uppercase;
+}
